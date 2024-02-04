@@ -56,8 +56,6 @@ def get_review_info_debug(review: str):
 
 
 def process_review(review: str):
-    review = escape(review)
-
     raw = get_review_info(review)
     
     data = json.loads(raw)
@@ -67,12 +65,12 @@ def process_review(review: str):
     hdisp = review
     
     for goodquote in data.get("positive", []):
-        hdisp = re.sub(re.escape(goodquote), "$sg$\g<0>$sc$", hdisp, re.I)
+        hdisp = re.sub(re.escape(goodquote), "$sg$\g<0>$sc$", hdisp, flags=re.I)
     
     for badquote in data.get("negative", []):
-        hdisp = re.sub(re.escape(badquote), "$sb$\g<0>$sc$", hdisp, re.I)
+        hdisp = re.sub(re.escape(badquote), "$sb$\g<0>$sc$", hdisp, flags=re.I)
     
-    return score, hdisp
+    return score, escape(hdisp)
     
 
 app = Flask(__name__)
