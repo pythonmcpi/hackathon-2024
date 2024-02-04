@@ -14,6 +14,6 @@ Once the software is running and open in your browser, do the following:
 
 - [Install Python 3.9 or above](https://www.python.org/downloads/)
 - Run `pip install -U -r requirements.txt` in order to install project dependencies
-- Open `serve.py` in a text editor. Paste in your OpenAI api key in the spot where it says `PASTE_YOUR_API_KEY_HERE`. Keep the quotes around the api key.
+- Open `serve.py` in a text editor. Paste in your OpenAI API key in the spot where it says `PASTE_YOUR_API_KEY_HERE`. Keep the quotes around the api key.
 - Run `python -m flask --app serve run`
 - Navigate to `127.0.0.1:5000` or the url displayed in your console to view the review analyzer in action!
