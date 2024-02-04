@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Summarizer</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Team 14</h1>
+        <a href="joinus.html"><button class="joinbutton">Join Us</button></a>
+    </header>
+
+    
+    <div class="title">
+        <h1 class="reviewtext">REVIEW</h1>
+        <h1 class="analyzertext">ANALYZER</h1>
+    </div>
+    <p class="directionstext">Here are the analysis results for the review:</p>
+    <br>
+
+    <div class="resultsbox light-background">
+        <p class="score">{{results.score}}/10</p>
+        <br>
+        <p>{{results.highlightedtext}}</p>
+    </div>
+
+    <!--
+    <div class="resultsbox light-background" >
+        <p class="score"> SCORE: 10/10</p>
+        <br>
+        <p>This is a review. <span class="liked">I liked this thing</span>, but disliked <span class="disliked">a staff member who was rude</span>. Overall this restaurant was ok</p>
+    </div>
+-->
+
+    <p class="backbutton"><a href="mainpage.html">Return to home</a></p>
+</body>
+</html>
