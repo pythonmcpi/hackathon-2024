@@ -5,7 +5,7 @@ A work-in-progress that helps business owners efficiently analyze reviews to ide
 ## Steps to Use
 
 Once the software is running and open in your browser, do the following:
-- Go to your product's reviews page
+- Go to your product's review page
 - Copy a long review and paste it into the text box
 - Hit the "Analyze Review" button
 - You will see the review score (an estimated rating based on the text content) as well as the review text. Aspects of your product that the reviewer liked is highlighted in green and parts that were disliked is highlighted in red.
