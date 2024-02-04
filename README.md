@@ -1,6 +1,6 @@
 # Review Analyzer
 
-A work-in-progress software that help business owners efficiently analyze reviews to identify strong and weak points.
+A work-in-progress that helps business owners efficiently analyze reviews to identify strong and weak points.
 
 ## Steps to Use
 
